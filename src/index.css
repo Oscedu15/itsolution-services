@@ -8,3 +8,15 @@
 * {
     scroll-behavior: smooth;
 }
+
+
+body {
+    font-weight: 400; 
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    background: #111;
+}
