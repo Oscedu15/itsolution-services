@@ -20,3 +20,16 @@ body {
     width: 100%;
     background: #111;
 }
+
+.animate {
+    animation: marquee 20s linear infinite ;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -245%;
+    }
+}

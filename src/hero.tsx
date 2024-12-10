@@ -12,6 +12,7 @@ import grt from "./assets/image-4.avif";
 import { motion } from "framer-motion";
 //Componentes
 import Form from "./form";
+import StartupCarousel from "./startup-carousel";
 
 const Hero = () => {
   return (
@@ -128,6 +129,9 @@ const Hero = () => {
         </div>
         <Form />
       </div>
+
+      <StartupCarousel />
+
       <motion.img
         initial={{ opacity: 0, y: 20 }}
         whileInView={{
@@ -147,7 +151,8 @@ const Hero = () => {
         className="absolute hidden md:block w-[120px] top-[616px] right-[760px] xl:top-[76px] xl:right-[500px] z-10"
       />
 
-      <motion.img     initial={{ opacity: 0, y: 30 }}
+      <motion.img
+        initial={{ opacity: 0, y: 30 }}
         whileInView={{
           opacity: 1,
           y: 0,
