@@ -16,9 +16,9 @@ import StartupCarousel from "./startup-carousel";
 
 const Hero = () => {
   return (
-    <section className="mt-[35px] pt-[99px] md:pt-[101px] flex items-center flex-col justify-center gap-40 w-full px-5 md:px-16 xl:pl-[152px] xl:pr-[120px] pb-[264px] bg-[#f8f8f8] relative overflow-hidden">
+    <section className="mt-[35px] pt-[99px] md:pt-[101px] flex items-center flex-col justify-center gap-40 w-full px-5 md:px-16 xl:pl-[152px] xl:pr-[120px] pb-[264px] xl:pb-[190px]  bg-[#f8f8f8] relative overflow-hidden">
       <div className="absolute left-0 -z-0 bg-cover hidden lg:block">
-        <img src={bg} alt="bg" />
+        <img src={bg} alt="bg"/>
       </div>
 
       <div className="flex items-center flex-col xl:flex-row justify-center gap-10 md:gap-20 w-full relative">
