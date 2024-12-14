@@ -9,6 +9,24 @@
     scroll-behavior: smooth;
 }
 
+.open-nav{
+    top: 99px;
+}
+
+.close-nav{
+    top: -400px;
+    transition: 1200ms;
+}
+
+.open-nav-items {
+    opacity: 1;
+    transition-delay:300ms ;
+}
+
+.close-nav-items {
+    opacity: 0;
+    transition-delay: 100ms;
+}
 
 body {
     font-weight: 400; 

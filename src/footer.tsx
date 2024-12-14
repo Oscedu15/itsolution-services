@@ -3,7 +3,7 @@ import logo from './assets/logoC.png'
 
 const Footer = () => {
   return (
-   <footer className='px-[24] lg:px-[80px] z40 py-[32px] flex flex-col lg:flex-row gap-[42px] items-center justify-between w-full bg-white'>
+   <footer className='px-[24] lg:px-[80px] z40 py-[32px] flex flex-col lg:flex-row gap-[42px] items-center justify-between w-full bg-white max-w-screen-2xl mx-auto'>
     <Link to='/' className="flex items-center gap-2.5 cursor-pointer">
     <img src={logo} alt="logo" className="h-[18px] w-[115px]" />
     </Link>

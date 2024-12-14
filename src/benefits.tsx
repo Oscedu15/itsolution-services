@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Benefits = () => {
   return (
-    <section className="pt-[80px] lg:pt-[120px] w-full px-[24px] md:px-[32px] xl:px-[178px] flex flex-col items-center gap-[60px] ">
+    <section className="pt-[80px] lg:pt-[120px] w-full px-[24px] md:px-[32px] xl:px-[178px] flex flex-col items-center gap-[60px] " id="benefite">
       <div className="flex flex-col items-center gap-6 w-full xl:w-[800px] ">
         {/* Heading */}
         <motion.h1

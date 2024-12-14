@@ -12,7 +12,7 @@ import dart from "./assets/icon_dart.svg";
 
 const Product = () => {
   return (
-    <section className="flex flex-col items-center w-full pt-[120px] md:pt-[160px] pb-[190px] md:pb-[150px] px-[24px] md:px-[32px] xl:px-[152px] gap-[80px] relative">
+    <section className="flex flex-col items-center w-full pt-[120px] md:pt-[160px] pb-[190px] md:pb-[150px] px-[24px] md:px-[32px] xl:px-[152px] gap-[80px] relative" id="product">
       <div className="w-full flex flex-col items-center gap-[15px] md:w-[850px]">
         {/* Heading */}
         <motion.div

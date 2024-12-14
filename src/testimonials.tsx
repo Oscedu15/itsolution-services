@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <div className="bg-[#f5f5f5] flex flex-col items-center w-full py-[60px] md:pb-[80px]">
       <div className="w-full flex flex-col items-center gap-[45px] pb-[60px] md:pb-[120px]">
-        <div className="w-full flex flex-col items-center gap-[15px] md:w-[850px]">
+        <div className="w-full flex flex-col items-center gap-[15px] md:w-[850px]" id="testimonials">
           {/* Heading Section */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}

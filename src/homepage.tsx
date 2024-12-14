@@ -16,7 +16,8 @@ const Homepage = () => {
   return (
     <div
       id="hero"
-      className="w-full min-h-[85vh] bg-white flex flex-col pt-[66px] md:pt-[66px]"
+      className="w-full min-h-[85vh] bg-white flex flex-col pt-[66px] md:pt-[66px]
+       max-w-screen-2xl mx-auto"
     >
       <Hero />
       <Benefits />
